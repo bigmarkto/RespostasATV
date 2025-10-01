@@ -1,5 +1,4 @@
-public class CompositeResposta {
-    public class Main {
+public class Main {
         public static void main(String[] args) {
 
             Menu arquivo = new Menu("ARQUIVO: MENU");
@@ -20,4 +19,4 @@ public class CompositeResposta {
             arquivo.show();
         }
     }
-}
+

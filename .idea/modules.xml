@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RespostaObserver/Observer.iml" filepath="$PROJECT_DIR$/RespostaObserver/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaAdapter/RespostaAdapter.iml" filepath="$PROJECT_DIR$/RespostaAdapter/RespostaAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaBridge/RespostaBridge.iml" filepath="$PROJECT_DIR$/RespostaBridge/RespostaBridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaComposite/RespostaComposite.iml" filepath="$PROJECT_DIR$/RespostaComposite/RespostaComposite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaFacade/RespostaFacade.iml" filepath="$PROJECT_DIR$/RespostaFacade/RespostaFacade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaFlyweight/RespostaFlyweight.iml" filepath="$PROJECT_DIR$/RespostaFlyweight/RespostaFlyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RespostaPrototype/RespostaPrototype.iml" filepath="$PROJECT_DIR$/RespostaPrototype/RespostaPrototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/RespostasATV.iml" filepath="$PROJECT_DIR$/RespostasATV.iml" />
     </modules>
   </component>
