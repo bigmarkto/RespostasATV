@@ -1,7 +1,14 @@
-public class BotaoModerno implements ElementoDesign {
+package RespostaPrototype;
+
+interface ElementoDesign {
+    ElementoDesign clone();
+    void renderizar();
+}
+
+public class MainAtvdPrototype implements ElementoDesign {
     private String corFundo, corTexto, fonte;
 
-    public BotaoModerno() {
+    public MainAtvdPrototype() {
 
         this.corFundo = "#3498db";
         this.corTexto = "#ffffff";
@@ -9,10 +16,11 @@ public class BotaoModerno implements ElementoDesign {
 
     }
     public ElementoDesign clone() {
-        BotaoModerno clone = new BotaoModerno();
+        MainAtvdPrototype clone = new MainAtvdPrototype();
 
         clone.corFundo = this.corFundo;
         clone.corTexto = this.corTexto;
+        clone.fonte = this.fonte;
         return clone;
     }
 
